@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2\\debug\\menu\\capture.xml",
+        "source": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner-release-2.1.6\\res\\menu\\capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2\\debug\\menu\\history.xml",
+        "source": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner-release-2.1.6\\res\\menu\\history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2\\debug\\menu\\encode.xml",
+        "source": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner-release-2.1.6\\res\\menu\\encode.xml"
+    }
+]

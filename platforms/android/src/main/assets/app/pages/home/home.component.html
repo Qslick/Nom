@@ -1,0 +1,115 @@
+<ActionBar title="Nom" class="action-bar"></ActionBar>
+
+<StackLayout>
+    <!--<SearchBar hint="Search hint" [text]="searchPhrase" (textChange)="onTextChanged($event)" (submit)="onSubmit($event)" color="black"
+        textFieldBackgroundColor="white" textFieldHintColor="gray"></SearchBar>-->
+</StackLayout>
+<TabView selectedIndex="0" (selectedIndexChange)="onIndexChanged($event)">
+
+    <StackLayout *tabItem="{title: 'Allergens'}">
+
+
+        <StackLayout class="focus_layout">
+            <StackLayout>
+                <Label horizontalAlignment="center" *ngIf="somethingSelected" class="h2" style="color: white; font-weight: bold;" [text]="allergen.selectedAllergen.name"></Label>
+                <Image *ngIf="somethingSelected" horizontalAlignment="center" style="text-align: center;" class="focus_image" [src]="editingImgUrl"></Image>
+            </StackLayout>
+
+            <Label *ngIf="!somethingSelected" style="color: white" class="h2 header" horizontalAlignment="center" text="Let's add some allergens"></Label>
+            <Label *ngIf="!somethingSelected" style="color: white" class="h3 sub_header" horizontalAlignment="center" text="What do we need to look out for?"></Label>
+
+            <!--<ScrollView>-->
+            <StackLayout *ngIf="somethingSelected" orientation="horizontal">
+                <Button *ngFor="let allergen of allergen.selectedAllergen.related_allergens" class="btn btn-primary tbtn-outline btn-rounded-lg"
+                    [text]="allergen"></Button>
+            </StackLayout>
+            <!--</ScrollView>-->
+            <!--<Button class="btn-outline btn-rounded-lg" text="Yeast"></Button>-->
+
+            <!--<StackLayout orientation="horizontal">
+                <Button class="btn btn-primary" text="subs"></Button>
+                <Button class="btn btn-primary" text="subs"></Button>
+            </StackLayout>-->
+
+            <!--<StackLayout *ngIf="somethingSelected" horizontalAlignment="center" orientation="horizontal">
+                <Button  horizontalAlignment="center" class="btn btn-primary" text="Scan" (tap)="scan()"></Button>
+                <Button horizontalAlignment="center" class="btn btn-primary" text="Discover" (tap)="discover()"></Button>
+            </StackLayout>-->
+        </StackLayout>
+
+
+        <ScrollView>
+            <StackLayout>
+                <CardView style="background-color: #19D7FF;" class="cardStyle" margin="5" elevation="5" radius="10">
+                    <StackLayout class="" orientation="horizontal" (tap)="wheatBtn()">
+                        <Image class="inside_card food_images" src="~/assets/images/bread-1.png"></Image>
+                        <Label class="inside_card card_text" text="Wheat"></Label>
+                        <Image *ngIf="allergen.wheat.isSelected()" class="inside_card food_images" src="~/assets/images/success.png"></Image>
+                    </StackLayout>
+                </CardView>
+                <CardView style="background-color: #14CC28;" class="cardStyle" margin="5" elevation="5" radius="10">
+                    <StackLayout class="" orientation="horizontal" (tap)="glutenBtn()">
+                        <Image class="inside_card food_images" src="~/assets/images/flour.png"></Image>
+                        <Label class="inside_card card_text" text="Gluten"></Label>
+                        <Image *ngIf="allergen.gluten.isSelected()" class="inside_card food_images" textAlignment="right" src="~/assets/images/success.png"></Image>
+                    </StackLayout>
+                </CardView>
+                <CardView style="background-color: #FF9500;" class="cardStyle" margin="5" elevation="5" radius="10">
+                    <StackLayout class="" orientation="horizontal" (tap)="fishBtn()">
+                        <Image class="inside_card food_images" src="~/assets/images/fish.png"></Image>
+                        <Label class="inside_card card_text" text="Fish"></Label>
+                        <Image *ngIf="allergen.fish.isSelected()" class="inside_card food_images" textAlignment="right" src="~/assets/images/success.png"></Image>
+                    </StackLayout>
+                </CardView>
+                <CardView style="background-color: #09B286;" class="cardStyle" margin="5" elevation="5" radius="10">
+                    <StackLayout class="" orientation="horizontal" (tap)="eggsBtn()">
+                        <Image class="inside_card food_images" src="~/assets/images/eggs.png"></Image>
+                        <Label class="inside_card card_text" text="Eggs"></Label>
+                        <Image *ngIf="allergen.eggs.isSelected()" class="inside_card food_images" textAlignment="right" src="~/assets/images/success.png"></Image>
+                    </StackLayout>
+                </CardView>
+                <CardView style="background-color: #FF0091;" class="cardStyle" margin="5" elevation="5" radius="10">
+                    <StackLayout class="" orientation="horizontal" (tap)="dairyBtn()">
+                        <Image class="inside_card food_images" src="~/assets/images/cheese-1.png"></Image>
+                        <Label class="inside_card card_text" text="Dairy"></Label>
+                        <Image *ngIf="allergen.dairy.isSelected()" class="inside_card food_images" textAlignment="right" src="~/assets/images/success.png"></Image>
+                    </StackLayout>
+                </CardView>
+                <CardView style="background-color: #1342FF;" class="cardStyle" margin="5" elevation="5" radius="10">
+                    <StackLayout class="" orientation="horizontal" (tap)="soyBtn()">
+                        <Image class="inside_card food_images" src="~/assets/images/soybean.png"></Image>
+                        <Label class="inside_card card_text" text="Soy"></Label>
+                        <Image *ngIf="allergen.soy.isSelected()" class="inside_card food_images" textAlignment="right" src="~/assets/images/success.png"></Image>
+                    </StackLayout>
+                </CardView>
+                <CardView style="background-color: #EC4DFF;" class="cardStyle" margin="5" elevation="5" radius="10">
+                    <StackLayout class="" orientation="horizontal" (tap)="nutBtn()">
+                        <Image class="inside_card food_images" src="~/assets/images/almond.png"></Image>
+                        <Label class="inside_card card_text" text="Nut"></Label>
+                        <Image *ngIf="allergen.nuts.isSelected()" class="inside_card food_images" textAlignment="right" src="~/assets/images/success.png"></Image>
+                    </StackLayout>
+                </CardView>
+                <CardView style="background-color: #16FF00;" class="cardStyle" margin="5" elevation="5" radius="10">
+                    <StackLayout class="" orientation="horizontal" (tap)="shellFishBtn()">
+                        <Image class="inside_card food_images" src="~/assets/images/shrimp.png"></Image>
+                        <Label class="inside_card card_text" text="Shell Fish"></Label>
+                        <Image *ngIf="allergen.shellFish.isSelected()" class="inside_card food_images" textAlignment="right" src="~/assets/images/success.png"></Image>
+                    </StackLayout>
+                </CardView>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Discover'}">
+        <Label [text]="$NDBno"></Label>
+        <Button class="scan_btn btn btn-primary" text="Scan Food" (tap)="scan()"></Button>
+        <Button text="Test Product" (tap)="testBtn()"></Button>
+    </StackLayout>
+</TabView>
+<!--<TabView>
+    <StackLayout *tabItem="{title: 'Products'}">
+        <Button class="scan_btn btn btn-primary" text="Scan Food" (tap)="scan()"></Button>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Profile'}">
+
+    </StackLayout>
+</TabView>-->

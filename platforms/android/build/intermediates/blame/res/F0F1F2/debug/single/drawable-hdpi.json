@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2\\debug\\drawable-hdpi\\background.png",
+        "source": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\src\\main\\res\\drawable-hdpi\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2\\debug\\drawable-hdpi\\icon.png",
+        "source": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2\\debug\\drawable-hdpi\\launcher_icon.png",
+        "source": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner-release-2.1.6\\res\\drawable-hdpi\\launcher_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2\\debug\\drawable-hdpi\\logo.png",
+        "source": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom\\platforms\\android\\src\\main\\res\\drawable-hdpi\\logo.png"
+    }
+]

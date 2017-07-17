@@ -1,0 +1,131 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-barcodescanner@^2.6.0",
+        "scope": null,
+        "escapedName": "nativescript-barcodescanner",
+        "name": "nativescript-barcodescanner",
+        "rawSpec": "^2.6.0",
+        "spec": ">=2.6.0 <3.0.0",
+        "type": "range"
+      },
+      "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom"
+    ]
+  ],
+  "_from": "nativescript-barcodescanner@>=2.6.0 <3.0.0",
+  "_id": "nativescript-barcodescanner@2.6.0",
+  "_inCache": true,
+  "_location": "/nativescript-barcodescanner",
+  "_nodeVersion": "6.10.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/nativescript-barcodescanner-2.6.0.tgz_1498661359308_0.06390938023105264"
+  },
+  "_npmUser": {
+    "name": "eddyverbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-barcodescanner@^2.6.0",
+    "scope": null,
+    "escapedName": "nativescript-barcodescanner",
+    "name": "nativescript-barcodescanner",
+    "rawSpec": "^2.6.0",
+    "spec": ">=2.6.0 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-barcodescanner/-/nativescript-barcodescanner-2.6.0.tgz",
+  "_shasum": "23147725498dcbe11cfd55e500867589033f7d1b",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-barcodescanner@^2.6.0",
+  "_where": "C:\\Users\\Quinn\\Documents\\Development\\Nom\\Nom",
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/eddyverbruggen/nativescript-barcodescanner/issues"
+  },
+  "dependencies": {},
+  "description": "Scan QR/barcodes with a {N} app.",
+  "devDependencies": {
+    "tns-core-modules": "^3.0.0",
+    "tns-platform-declarations": "^3.0.0",
+    "tslint": "^5.0.0",
+    "typescript": "~2.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "23147725498dcbe11cfd55e500867589033f7d1b",
+    "tarball": "https://registry.npmjs.org/nativescript-barcodescanner/-/nativescript-barcodescanner-2.6.0.tgz"
+  },
+  "gitHead": "0bf314cc7de42a2c02809d866134121e75fe457c",
+  "homepage": "https://github.com/eddyverbruggen/nativescript-barcodescanner",
+  "keywords": [
+    "ecosystem:nativescript",
+    "NativeScript",
+    "Barcode",
+    "Barcode Scanner",
+    "Bulk",
+    "Bulk Scan",
+    "Continuous",
+    "Flashlight",
+    "Torch",
+    "Torch",
+    "Aztec",
+    "Codabar",
+    "Code39",
+    "Code93",
+    "Code128",
+    "Data Matrix",
+    "EAN8",
+    "EAN13",
+    "ITF",
+    "PDF417",
+    "QR",
+    "RSS14",
+    "UPCA",
+    "UPCE"
+  ],
+  "license": "MIT",
+  "main": "barcodescanner",
+  "maintainers": [
+    {
+      "name": "eddyverbruggen",
+      "email": "eddyverbruggen@gmail.com"
+    }
+  ],
+  "name": "nativescript-barcodescanner",
+  "nativescript": {
+    "platforms": {
+      "android": "2.3.0",
+      "ios": "2.3.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddyverbruggen/nativescript-barcodescanner.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "demo.ios": "npm run preparedemo && cd demo && tns emulate ios --device \"iPhone 7\"",
+    "demo.ios.device": "npm run preparedemo && cd demo && tns platform remove ios && tns platform add ios && tns run ios",
+    "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-barcodescanner && tns plugin add .. && tns install",
+    "setup": "npm i && cd demo && npm i && cd .. && npm run build && cd demo && tns plugin add .. && cd ..",
+    "test": "npm run tslint && npm run tslint.demo",
+    "tslint": "tslint *.ts",
+    "tslint.demo": "tslint demo/app/*.ts"
+  },
+  "typings": "index.d.ts",
+  "version": "2.6.0"
+}

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\Nom\runtime\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="30b97ea5d6274e02330dcc69943087778363c172">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\Nom-runtime-unspecified_cf61dfb90b91995cbcc6162449db27017788fbff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\Nom\runtime\unspecified\jars\libs\binding-generator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a3e74f5f1ebe12c7cfa6591158ef298c95a5275f">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\binding-generator_86935401b639ba05c96f81727d6ea87109cba0b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\com.android.support-support-v4-25.3.1_d2152aa2d807fb46459373281a89cf6ce4de8303.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\com.android.support-transition-25.3.1_a544d7644d3f7cfcf53cf6f00f831caaa684b73c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\com.android.support-support-media-compat-25.3.1_95b2772110dfb20a3dabdfe99ffccfa07e565547.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\com.android.support-support-compat-25.3.1_98a9f7b4b239663fc751e6a8300bb031c516fe01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\com.android.support-support-fragment-25.3.1_8bedb1ae7fd32de8b3070403f28b68582b4caf27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\support-annotations-25.3.1_992780455c1ea73883ebf00f796a65a3597a1f08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\com.android.support-support-core-ui-25.3.1_e825600923ddf79a27ef4a81013bd2774f832ae9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\com.android.support-recyclerview-v7-25.3.1_cb3f7dec9db249ecc084fe832ad77eb08b81a938.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\barcodescanner-release-2.1.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2d4f602a67efec62a1db4e4b2e695e8270fd0a1c">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\intermediates-exploded-aar-barcodescanner-release-2.1.6_63c158ae08fd3febad67c444570ae2948d8467c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\com.android.support-animated-vector-drawable-25.3.1_159344b6adc3d05c6b820eacc813774f2f9f305f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\com.android.support-cardview-v7-25.3.1_334c0918bbe4729cf974e0e7a9196c03cec06bcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\com.android.support-design-25.3.1_9bb1ec54d5c99246e7ebea62acbfe4c34fb8e4d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\com.android.support-support-vector-drawable-25.3.1_86da89d2ccb10def140c41eac575b3b8692b1cc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\com.android.support-appcompat-v7-25.3.1_51ceb213a42f431c757145ad2a37837a6f7006b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ed69cd5603304a6fc9a36a94c8be977a1d0e4857">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\intermediates-exploded-aar-widgets-release_7a17a3d3ea84741ff0bb4f862e92205b920f48ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Quinn\Documents\Development\Nom\Nom\platforms\android\build\intermediates\pre-dexed\F0F1F2\debug\com.android.support-support-core-utils-25.3.1_59caf6153deef58ac4a58c12ae2597c17eb108bf.jar" />
+    </item>
+
+</items>
